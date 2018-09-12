@@ -1,0 +1,12 @@
+{
+  "cpu": "1",
+  "memory": "300",
+  "imageName": "default-image",
+  "imageTag": "latest",
+  "name": "default-container-name",
+  "family": "container-family",
+  "env": [
+    { "name": "DB_NAME", "value": "default-db" },
+    { "name": "DB_USER", "value": "default-user" }
+  ]
+}

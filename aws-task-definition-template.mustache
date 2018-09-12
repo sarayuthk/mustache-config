@@ -1,0 +1,17 @@
+{
+  "containerDefinitions": [
+    {
+      "environment": [
+        {{#env}}
+          {"name": "{{name}}", "value": "{{value}}"},
+        {{/env}}
+      ],
+      "name": "{{name}}",
+      "image": "{{imageName}}:{{imageTag}}",
+      "cpu": {{cpu}},
+      "memory": {{memory}},
+      "essential": true
+    }
+  ],
+  "family": "{{family}}"
+}

@@ -1,0 +1,1 @@
+{"containerDefinitions":[{"environment":[{"name":"DB_NAME","value":"development-db"},{"name":"DB_USER","value":"development-user"}],"name":"development-container-name","image":"default-image:latest","cpu":1,"memory":300,"essential":true}],"family":"development-container-family"}

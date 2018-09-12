@@ -1,0 +1,19 @@
+{
+  "name": "mustache-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mustache-config": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mustache-config"
+  ],
+  "author": "Sarayuth Kangpitakkul",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^2.0.1",
+    "mustache": "^2.3.2"
+  }
+}
